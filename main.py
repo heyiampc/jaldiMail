@@ -22,13 +22,14 @@ while True:
             bot.send_message(message.chat.id,
 '''
 Hey.,
-Welcome to MysteryMail Bot
+Welcome to Telegram TempMail Service
 Usage:
-➪ To Generate emails by clicking on the button "Generate email"
-➪ To refresh your inbox click on the button "Refresh inbox"
-➪ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
+>>To Generate emails by clicking on the button "Generate email"
+>>To refresh your inbox click on the button "Refresh inbox"
+>>After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
                               
-Dev : @riz4d
+Dev:heyiampc
+Inspired by@riz4d
 ''',
                              reply_markup=keyboard)
 
