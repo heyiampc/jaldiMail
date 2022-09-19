@@ -6,7 +6,7 @@ import requests
 from telebot.types import InlineKeyboardButton
 
 # Fillout Here The BotToken it gets from botfather further queries @riz4d 0n telegram
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('5759512985:AAGQ9DyOui3GT7hsvmzU9dm86-kupCXKOY8')
 
 while True:
     try:
