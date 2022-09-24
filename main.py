@@ -21,15 +21,8 @@ while True:
         def start_message(message):
             bot.send_message(message.chat.id,
 '''
-Hey.,
-Welcome to Telegram TempMail Service
-Usage:
->>To Generate emails by clicking on the button "Generate email"
->>To refresh your inbox click on the button "Refresh inbox"
->>After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
-                              
-Dev:heyiampc
-Inspired by@riz4d
+Generate Temporary Email 
+github.com/heyiampc
 ''',
                              reply_markup=keyboard)
 
@@ -49,7 +42,7 @@ Inspired by@riz4d
             elif message.text.lower() == 'about':
                 bot.send_message(message.chat.id,
 '''
-What is Mystery Mail?
+What is jaldiMail?
 
 - it is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail
 
@@ -57,8 +50,6 @@ How Mystery Mail Become Safer You?
 
 - Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.
 
-➪ Bot Name : MysteryMail
-➪ Author : @riz4d
 ➪ Language : Python''')
             elif message.text.lower()[14] == "[":
                 email = message.text.lower()[15:message.text.lower().find("]")]
