@@ -1,6 +1,3 @@
-# copyright 2020-21 @Mohamed Rizad
-# Telegram @riz4d
-# Instagram @riz.4d
 import telebot
 import requests
 from telebot.types import InlineKeyboardButton
