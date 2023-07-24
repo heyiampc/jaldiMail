@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot.types import InlineKeyboardButton
 
-# Fillout Here The BotToken it gets from botfather further queries @riz4d 0n telegram
+# Fillout Here The BotToken it gets from botfather
 bot = telebot.TeleBot('5759512985:AAGQ9DyOui3GT7hsvmzU9dm86-kupCXKOY8')
 
 while True:
@@ -73,7 +73,7 @@ How Mystery Mail Become Safer You?
                                              reply_markup=bkeyboard)
                             count = i + 1
                         bot.send_message(message.chat.id, "Here " + str(
-                            count) + " message we're found\nClick on the below button to read the message\n\n Further Queries @riz4d")
+                            count) + " message we're found\nClick on the below button to read the message\n\n")
                     else:
                         bot.send_message(message.chat.id, 'Nothing found', reply_markup=bkeyboard)
                 except BaseException:
